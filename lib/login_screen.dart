@@ -1,0 +1,16 @@
+// login_screen.dart
+import 'package:flutter/material.dart';
+
+class LoginScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Iniciar Sesión'),
+      ),
+      body: Center(
+        child: Text('Contenido de la pantalla de inicio de sesión'),
+      ),
+    );
+  }
+}
